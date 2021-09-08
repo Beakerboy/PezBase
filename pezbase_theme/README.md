@@ -6,7 +6,7 @@ Custom layout for Blocks, Nodes, Entities, and Fields
 
 Features
 --------
- * [Blocks]
- * [Nodes]
- * [Entites]
- * [Fields]
+ * [Blocks](#blocks)
+ * [Nodes](#nodes)
+ * [Entites](#entities)
+ * [Fields](#fields)
