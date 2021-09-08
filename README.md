@@ -18,7 +18,7 @@ Features
  A data module collects all the custom entities and fields for the website. 
 
 ### Reports
- A UI module contains custom controllers and pages.
+ A UI module contains custom controllers and views.
  
 ### Theme
  A theme module provides the look of the wbesite
