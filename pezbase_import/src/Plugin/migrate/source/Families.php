@@ -34,9 +34,9 @@ class Taxonomy extends SqlBase {
    */
   public function fields() {
     $fields = [
-      'tid'    => $this->t('ID'),
-      'name'   => $this->t('Name' ),
-      'parent' => $this->t('Parent'),
+      'family_id'    => $this->t('ID'),
+      'family_name'   => $this->t('Name' ),
+      'family_parent' => $this->t('Parent'),
     ];
     return $fields;
   }
