@@ -1,0 +1,13 @@
+id: families
+label: 'Families'
+source:
+  plugin: families
+  key: migrate
+process:
+  name: name
+  parent: parent
+  vid:
+    plugin: default_value
+    default_value: dispenser_family
+destination:
+  plugin: 'entity:taxonomy_term'
