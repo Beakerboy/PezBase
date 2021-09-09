@@ -1,0 +1,5 @@
+name: 'PezBase Import'
+type: module
+description: 'Scripts to import data from the old site into Drupal'
+package: PezBase
+core_version_requirement: ^9.2
