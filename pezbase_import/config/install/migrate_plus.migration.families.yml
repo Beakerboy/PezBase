@@ -11,3 +11,9 @@ process:
     default_value: dispenser_family
 destination:
   plugin: 'entity:taxonomy_term'
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import
