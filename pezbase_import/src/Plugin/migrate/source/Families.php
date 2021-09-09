@@ -9,7 +9,7 @@ use Drupal\migrate\Row;
  * Minimalistic example for a SqlBase source plugin.
  *
  * @MigrateSource(
- *   id = "taxonomy",
+ *   id = "families",
  *   source_module = "pezbase_import",
  * )
  */
