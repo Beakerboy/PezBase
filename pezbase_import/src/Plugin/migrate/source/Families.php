@@ -52,12 +52,4 @@ class Taxonomy extends SqlBase {
       ],
     ];
   }
-
-  /**
-   * {@inheritdoc}
-   */
-  public function prepareRow(Row $row) {
-    $row->setSourceProperty('vid', 'dispenser_family');
-    return parent::prepareRow($row);
-  }
 }
