@@ -1,5 +1,6 @@
 id: families
 label: 'Families'
+migration_group: pezbase
 source:
   plugin: families
   key: migrate
