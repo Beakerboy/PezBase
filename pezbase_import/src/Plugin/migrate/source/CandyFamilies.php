@@ -38,9 +38,10 @@ class CandyFamilies extends SqlBase {
    */
   public function fields() {
     $fields = [
-      'candy_family_id'    => $this->t('ID'),
-      'candy_family_name'   => $this->t('Name' ),
-      'candy_family_parent' => $this->t('Parent'),
+      'candy_family_id'          => $this->t('ID'),
+      'candy_family_name'        => $this->t('Name' ),
+      'candy_family_description' => $this->t('Description'),
+      'candy_family_parent'      => $this->t('Parent'),
     ];
     return $fields;
   }
