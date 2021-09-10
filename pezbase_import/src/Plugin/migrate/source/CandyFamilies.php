@@ -25,9 +25,7 @@ class CandyFamilies extends SqlBase {
           'candy_family_id',
           'candy_family_name',
           'candy_family_description',
-        ])
-      // We sort this way to ensure parent terms are imported first.
-      ->orderBy('candy_family_predecessor', 'ASC');
+        ]);
 
     return $query;
   }
