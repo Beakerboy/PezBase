@@ -1,0 +1,19 @@
+id: flavors
+label: 'Flavors'
+migration_group: pezbase
+source:
+  plugin: flavors
+  key: migrate
+process:
+  name: flavor_name
+  vid:
+    plugin: default_value
+    default_value: flavors
+destination:
+  plugin: 'entity:taxonomy_term'
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import
