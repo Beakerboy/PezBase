@@ -25,7 +25,10 @@ class Families extends SqlBase {
           'family_id',
           'family_name',
           'family_predecessor',
-        ]);
+        ])
+      // We sort this way to ensure parent terms are imported first.
+      ->orderBy('family_predecessor', 'ASC');
+
     return $query;
   }
 
