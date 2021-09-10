@@ -13,7 +13,7 @@ use Drupal\migrate\Row;
  *   source_module = "pezbase_import",
  * )
  */
-class Taxonomy extends SqlBase {
+class Families extends SqlBase {
 
   /**
    * {@inheritdoc}
