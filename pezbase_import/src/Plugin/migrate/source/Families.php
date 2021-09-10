@@ -37,9 +37,9 @@ class Families extends SqlBase {
    */
   public function fields() {
     $fields = [
-      'family_id'    => $this->t('ID'),
-      'family_name'   => $this->t('Name' ),
-      'family_parent' => $this->t('Parent'),
+      'family_id'          => $this->t('ID'),
+      'family_name'        => $this->t('Name' ),
+      'family_predecessor' => $this->t('Parent'),
     ];
     return $fields;
   }
