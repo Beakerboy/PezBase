@@ -6,13 +6,14 @@ source:
   key: migrate
 process:
   name: candy_family_name
+  description: candy_family_description
   vid:
     plugin: default_value
     default_value: candy_family
   parent:
     plugin: migration_lookup
     migration: candy_families
-    source: candy_family_id
+    source: candy_family_predecessor
 destination:
   plugin: 'entity:taxonomy_term'
 dependencies:
