@@ -1,0 +1,23 @@
+id: non_families
+label: 'Nondispenser Families'
+migration_group: pezbase
+source:
+  plugin: non_families
+  key: migrate
+process:
+  name: name
+  vid:
+    plugin: default_value
+    default_value: nondispenser_family
+  parent:
+    plugin: migration_lookup
+    migration: non_families
+    source: nonfamily_id
+destination:
+  plugin: 'entity:taxonomy_term'
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import
