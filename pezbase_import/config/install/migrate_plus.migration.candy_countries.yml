@@ -1,0 +1,19 @@
+id: country_countries
+label: 'Candy Countries'
+migration_group: pezbase
+source:
+  plugin: candy_countries
+  key: migrate
+process:
+  name: candy_country_name
+  vid:
+    plugin: default_value
+    default_value: candy_countries
+destination:
+  plugin: 'entity:taxonomy_term'
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import
