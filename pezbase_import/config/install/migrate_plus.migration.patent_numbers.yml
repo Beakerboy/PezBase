@@ -5,7 +5,7 @@ source:
   plugin: patent_numbers
   key: migrate
 process:
-  name: fpatent_number_name
+  name: patent_number_name
   vid:
     plugin: default_value
     default_value: patent_numbers
