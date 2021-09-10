@@ -5,7 +5,7 @@ source:
   plugin: families
   key: migrate
 process:
-  name: name
+  name: family_name
   vid:
     plugin: default_value
     default_value: dispenser_family
