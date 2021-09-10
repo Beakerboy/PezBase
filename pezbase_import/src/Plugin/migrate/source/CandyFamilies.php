@@ -25,7 +25,6 @@ class CandyFamilies extends SqlBase {
           'candy_family_id',
           'candy_family_name',
           'candy_family_description',
-          'candy_family_predecessor',
         ])
       // We sort this way to ensure parent terms are imported first.
       ->orderBy('candy_family_predecessor', 'ASC');
@@ -41,7 +40,6 @@ class CandyFamilies extends SqlBase {
       'candy_family_id'          => $this->t('ID'),
       'candy_family_name'        => $this->t('Name' ),
       'candy_family_description' => $this->t('Description'),
-      'candy_family_parent'      => $this->t('Parent'),
     ];
     return $fields;
   }
