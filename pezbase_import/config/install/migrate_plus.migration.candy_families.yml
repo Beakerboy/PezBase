@@ -1,0 +1,23 @@
+id: candy_families
+label: 'Candy Pack Families'
+migration_group: pezbase
+source:
+  plugin: candy_families
+  key: migrate
+process:
+  name: candy_family_name
+  vid:
+    plugin: default_value
+    default_value: candy_family
+  parent:
+    plugin: migration_lookup
+    migration: candy_families
+    source: candy_family_id
+destination:
+  plugin: 'entity:taxonomy_term'
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import
