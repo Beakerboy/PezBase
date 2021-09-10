@@ -10,10 +10,6 @@ process:
   vid:
     plugin: default_value
     default_value: candy_family
-  parent:
-    plugin: migration_lookup
-    migration: candy_families
-    source: candy_family_predecessor
 destination:
   plugin: 'entity:taxonomy_term'
 dependencies:
