@@ -1,0 +1,19 @@
+id: colors
+label: 'Colors'
+migration_group: pezbase
+source:
+  plugin: colors
+  key: migrate
+process:
+  name: color_name
+  vid:
+    plugin: default_value
+    default_value: colors
+destination:
+  plugin: 'entity:taxonomy_term'
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import
