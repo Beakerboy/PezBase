@@ -24,7 +24,7 @@ class PatentNumbers extends SqlBase {
       ->fields('f', [
           'patent_number_id',
           'patent_number_name',
-        ])
+        ]);
 
     return $query;
   }
