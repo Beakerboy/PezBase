@@ -1,0 +1,19 @@
+id: package
+label: 'Package'
+migration_group: pezbase
+source:
+  plugin: package
+  key: migrate
+process:
+  name: package_name
+  vid:
+    plugin: default_value
+    default_value: package
+destination:
+  plugin: 'entity:taxonomy_term'
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import
