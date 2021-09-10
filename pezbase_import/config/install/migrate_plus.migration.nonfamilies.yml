@@ -12,7 +12,7 @@ process:
   parent:
     plugin: migration_lookup
     migration: non_families
-    source: nonfamily_id
+    source: non_family_id
 destination:
   plugin: 'entity:taxonomy_term'
 dependencies:
