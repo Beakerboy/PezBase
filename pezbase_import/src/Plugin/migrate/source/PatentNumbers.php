@@ -21,7 +21,7 @@ class PatentNumbers extends SqlBase {
   public function query() {
     // Source data is queried from 'families' table.
     $query = $this->select('patent_numbers', 'p')
-      ->fields('f', [
+      ->fields('p', [
           'patent_number_id',
           'patent_number_name',
         ]);
