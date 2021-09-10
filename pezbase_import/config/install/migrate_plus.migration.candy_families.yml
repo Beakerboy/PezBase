@@ -9,7 +9,7 @@ process:
   description: candy_family_description
   vid:
     plugin: default_value
-    default_value: candy_family
+    default_value: candy_families
 destination:
   plugin: 'entity:taxonomy_term'
 dependencies:
