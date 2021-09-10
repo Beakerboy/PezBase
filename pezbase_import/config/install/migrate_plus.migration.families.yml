@@ -12,7 +12,7 @@ process:
   parent:
     plugin: migration_lookup
     migration: families
-    source: family_id
+    source: family_predecessor
 destination:
   plugin: 'entity:taxonomy_term'
 dependencies:
