@@ -3,3 +3,6 @@ type: module
 description: 'Scripts to import data from the old site into Drupal'
 package: PezBase
 core_version_requirement: ^9.2
+dependencies:
+  - migrate_plus:migrate_plus
+  - migrate_tools:migrate_tools
