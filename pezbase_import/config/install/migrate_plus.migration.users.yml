@@ -1,0 +1,18 @@
+id: custom_user_migration
+label: 'Custom user migration'
+source:
+  plugin: pezbase_users
+  key: migrate
+process:
+  name: name
+  mail: mail
+  pass: pw_hash
+  status: status
+destination:
+  plugin: entity:user
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import
