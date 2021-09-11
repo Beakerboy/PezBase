@@ -2,7 +2,6 @@
 Code for the Pezbase website
 
 ### Several custom Drupal modules are used to run PezBase
-This Library allows a user to easily move data between excel and a database running the Drupal CMS
 
 Features
 --------
