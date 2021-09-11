@@ -1,14 +1,16 @@
-id: custom_user_migration
-label: 'Custom user migration'
+id: users
+label: 'Users'
 migration_group: pezbase
 source:
   plugin: pezbase_users
   key: migrate
 process:
-  name: name
-  mail: mail
-  pass: pw_hash
-  status: status
+  name: username
+  mail: email_address
+  pass: crypt
+  access: last_access
+  login: last_access
+  created: created
 destination:
   plugin: entity:user
 dependencies:
