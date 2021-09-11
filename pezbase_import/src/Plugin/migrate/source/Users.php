@@ -19,7 +19,6 @@ class Users extends SqlBase {
    * {@inheritdoc}
    */
   public function query() {
-    select * from users where username !='pezadmin' AND username!='' order by user_id";
     $query = $this->select('users', 'u')
       ->fields('u', [
           'user_id',
@@ -43,7 +42,7 @@ class Users extends SqlBase {
       'user_id' => $this->t('ID'),
       'username' => $this->t('Username'),
       'crypt'   => $this->t('Password Hash'),
-      'email_address' => $this->t('Email Address' ),
+      'email_address' => $this->t('Email Address'),
       'created' => $this->t('Created'),
       'last_access' => $this->t('Last Access'),
     ];
