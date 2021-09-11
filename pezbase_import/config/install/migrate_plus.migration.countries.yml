@@ -1,0 +1,16 @@
+id: countries
+label: 'Countries'
+migration_group: pezbase
+source:
+  plugin: countries
+  key: migrate
+process:
+  name: country_name
+destination:
+  plugin: 'entity:taxonomy_term'
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import
