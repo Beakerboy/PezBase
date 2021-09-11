@@ -1,5 +1,6 @@
 id: custom_user_migration
 label: 'Custom user migration'
+migration_group: pezbase
 source:
   plugin: pezbase_users
   key: migrate
