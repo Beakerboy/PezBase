@@ -1,4 +1,4 @@
-id: colors
+id: stem_colors
 label: 'Colors'
 migration_group: pezbase
 source:
@@ -8,7 +8,7 @@ process:
   name: color_name
   vid:
     plugin: default_value
-    default_value: colors
+    default_value: stem_colors
 destination:
   plugin: 'entity:taxonomy_term'
 dependencies:
