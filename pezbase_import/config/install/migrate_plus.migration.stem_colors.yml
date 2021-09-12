@@ -2,7 +2,7 @@ id: stem_colors
 label: 'Colors'
 migration_group: pezbase
 source:
-  plugin: colors
+  plugin: stem_colors
   key: migrate
 process:
   name: color_name
