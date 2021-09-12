@@ -6,3 +6,9 @@ name: 'Stem Colors'
 vid: stem_colors
 description: 'Dispenser stem colors'
 weight: 0
+dependencies:
+  module:
+    - pezbase_data
+  enforced:
+    module:
+      - pezbase_data
