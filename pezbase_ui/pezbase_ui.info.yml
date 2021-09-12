@@ -1,0 +1,7 @@
+name: 'PezBase UI'
+type: module
+description: 'Controllers and views used by PezBase'
+package: PezBase
+core_version_requirement: ^9.2
+dependencies:
+  - pezbase_data:pezbase_data
