@@ -6,6 +6,9 @@ source:
   key: migrate
 process:
   name: country_name
+  vid:
+    plugin: default_value
+    default_value: stem_countries
 destination:
   plugin: 'entity:taxonomy_term'
 dependencies:
