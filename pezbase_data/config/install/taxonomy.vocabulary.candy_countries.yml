@@ -1,0 +1,11 @@
+uuid: 316ce3c8-40fb-487d-9aea-ad43cf90130a
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - pezbase_data
+name: 'Candy Countries'
+vid: candy_countries
+description: 'Candy Pack Country Names'
+weight: 0
