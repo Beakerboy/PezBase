@@ -5,16 +5,20 @@ Code for the Pezbase website
 
 Features
 --------
- * [pezbase_import](#data-import)
  * [pezbase_data](#data)
+ * [pezbase_examples](#example-data)
+ * [pezbase_import](#data-import)
  * [pezbase_ui](#reports)
  * [pezbase_theme](#theme)
 
+### Data
+ A data module collects all the custom entities and fields for the website.
+
+### Example Data
+ Installing this module will add some test data to the database to ensure the theme looks good without having to migrate the entire database over.
+ 
 ### Data Import
  The existing data in in a postgresql database, and is in a different format than standard drupal entities. This module imports the data into Drupal
- 
-### Data
- A data module collects all the custom entities and fields for the website. 
 
 ### Reports
  A UI module contains custom controllers and views.
