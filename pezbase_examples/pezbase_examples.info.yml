@@ -6,3 +6,4 @@ core_version_requirement: ^9.2
 dependencies:
   - default_content:deault_content
   - pezbase_data:pezbase_data
+default_content:
