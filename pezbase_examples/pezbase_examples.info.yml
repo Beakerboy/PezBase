@@ -7,3 +7,5 @@ dependencies:
   - default_content:default_content
   - pezbase_data:pezbase_data
 default_content:
+  - taxonomy_term:
+      - 1d5de6f6-c88b-460d-8a08-2be58ed6c8a6
