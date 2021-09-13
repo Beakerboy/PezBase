@@ -1,5 +1,5 @@
 id: dispenser_families
-label: 'Families'
+label: 'Dispenser Families'
 migration_group: pezbase
 source:
   plugin: dispenser_families
