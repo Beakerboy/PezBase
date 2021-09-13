@@ -1,0 +1,30 @@
+uuid: a51252ee-0cfb-44b5-b9d4-c163e3d88927
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_feet
+field_name: field_feet
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'No Feet'
+      label: 'No Feet'
+    -
+      value: 'Thin Feet'
+      label: 'Thin Feet'
+    -
+      value: Feet
+      label: Feet
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
