@@ -9,11 +9,11 @@ use Drupal\migrate\Row;
  * Minimalistic example for a SqlBase source plugin.
  *
  * @MigrateSource(
- *   id = "flavors",
+ *   id = "candy_flavors",
  *   source_module = "pezbase_import",
  * )
  */
-class Flavors extends SqlBase {
+class CandyFlavors extends SqlBase {
 
   /**
    * {@inheritdoc}
