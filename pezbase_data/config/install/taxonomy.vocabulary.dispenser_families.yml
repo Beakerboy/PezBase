@@ -1,0 +1,11 @@
+uuid: 5684c928-2467-42b9-a985-5915dbb891b0
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - pezbase_data
+name: 'Dispenser Families'
+vid: dispenser_families
+description: 'PEZ Dispenser Families'
+weight: 0
