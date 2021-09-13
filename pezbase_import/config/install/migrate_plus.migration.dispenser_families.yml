@@ -11,7 +11,7 @@ process:
     default_value: dispenser_families
   parent:
     plugin: migration_lookup
-    migration: families
+    migration: dispenser_families
     source: family_predecessor
     no_stub: true
 destination:
