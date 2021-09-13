@@ -3,6 +3,7 @@ Code for the Pezbase website
 
 ### Several custom Drupal modules are used to run PezBase
 
+
 Features
 --------
  * [pezbase_data](#data)
@@ -10,6 +11,12 @@ Features
  * [pezbase_import](#data-import)
  * [pezbase_ui](#reports)
  * [pezbase_theme](#theme)
+
+Setup
+-----
+From the command line:
+
+composer create-project drupal/recommended-project my_site_name_dir
 
 ### Data
  A data module collects all the custom entities and fields for the website.
