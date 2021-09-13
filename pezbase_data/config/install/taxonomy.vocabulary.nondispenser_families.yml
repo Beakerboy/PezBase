@@ -1,0 +1,11 @@
+uuid: 9937dbb0-93f2-41c5-9a59-14271464979f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - pezbase_data
+name: 'Nondispenser Families'
+vid: nondispenser_families
+description: 'Nondispenser Family Types'
+weight: 0
