@@ -1,0 +1,21 @@
+uuid: 386eb143-07d7-4bd9-b56f-924e76aa383c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_feet
+    - node.type.stem
+  module:
+    - options
+id: node.stem.field_feet
+field_name: field_feet
+entity_type: node
+bundle: stem
+label: Feet
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
