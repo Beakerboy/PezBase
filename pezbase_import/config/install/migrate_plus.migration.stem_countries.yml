@@ -1,8 +1,8 @@
-id: countries
+id: stem_countries
 label: 'Countries'
 migration_group: pezbase
 source:
-  plugin: countries
+  plugin: stem_countries
   key: migrate
 process:
   name: country_name
