@@ -1,0 +1,11 @@
+uuid: 87a2ce93-cb41-470f-bd1b-f3f9e17531cb
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - pezbase_data
+name: 'Patent Numbers'
+vid: patent_numbers
+description: 'Dispenser Patent Numbers'
+weight: 0
