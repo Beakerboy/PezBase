@@ -1,0 +1,11 @@
+uuid: 1f284c3c-290c-4774-b3ee-cec22629e7ec
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - pezbase_data
+name: 'Candy Falvors'
+vid: candy_falvors
+description: 'Flavors of PEZ Candy'
+weight: 0
