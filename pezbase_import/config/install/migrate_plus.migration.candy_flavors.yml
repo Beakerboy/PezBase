@@ -1,14 +1,14 @@
-id: flavors
+id: candy_flavors
 label: 'Flavors'
 migration_group: pezbase
 source:
-  plugin: flavors
+  plugin: candy_flavors
   key: migrate
 process:
   name: flavor_name
   vid:
     plugin: default_value
-    default_value: flavors
+    default_value: candy_flavors
 destination:
   plugin: 'entity:taxonomy_term'
 dependencies:
