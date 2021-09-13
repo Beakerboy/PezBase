@@ -1,14 +1,14 @@
-id: families
+id: dispenser_families
 label: 'Families'
 migration_group: pezbase
 source:
-  plugin: families
+  plugin: dispenser_families
   key: migrate
 process:
   name: family_name
   vid:
     plugin: default_value
-    default_value: dispenser_family
+    default_value: dispenser_families
   parent:
     plugin: migration_lookup
     migration: families
