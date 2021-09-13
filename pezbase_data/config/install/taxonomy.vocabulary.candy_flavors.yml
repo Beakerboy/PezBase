@@ -5,7 +5,7 @@ dependencies:
   enforced:
     module:
       - pezbase_data
-name: 'Candy Falvors'
-vid: candy_falvors
+name: 'Candy Flavors'
+vid: candy_flavors
 description: 'Flavors of PEZ Candy'
 weight: 0
