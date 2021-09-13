@@ -1,3 +1,7 @@
+mysql -u root -p -e "CREATE DATABASE pezbase"
+mysql -u root -p -e "CREATE USER pezbase@localhost IDENTIFIED BY 'password';"
+mysql -u root -p -e "grant all privileges on pezbase.* to pezbase@localhost;"
+
 git clone git@github.com:Beakerboy/Pezbase
 composer create-project drupal/recommended-project pezbase
 cd pezbase
