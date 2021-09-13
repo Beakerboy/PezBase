@@ -1,0 +1,11 @@
+uuid: fdba9144-03a8-45a7-8d4e-75de8627b652
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - pezbase_data
+name: 'Candy Families'
+vid: candy_families
+description: 'Candy Pack Family Types'
+weight: 0
