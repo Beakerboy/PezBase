@@ -9,17 +9,16 @@ use Drupal\migrate\Row;
  * Minimalistic example for a SqlBase source plugin.
  *
  * @MigrateSource(
- *   id = "non_families",
+ *   id = "nondispenser_families",
  *   source_module = "pezbase_import",
  * )
  */
-class NonFamilies extends SqlBase {
+class NondispenserFamilies extends SqlBase {
 
   /**
    * {@inheritdoc}
    */
   public function query() {
-    // Source data is queried from 'families' table.
     $query = $this->select('non_family', 'f')
       ->fields('f', [
           'non_family_id',
