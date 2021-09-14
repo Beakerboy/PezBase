@@ -15,8 +15,7 @@ Features
 Setup
 -----
 From the command line:
-
-composer create-project drupal/recommended-project my_site_name_dir
+bash ./install.sh
 
 ### Data
  A data module collects all the custom entities and fields for the website.
