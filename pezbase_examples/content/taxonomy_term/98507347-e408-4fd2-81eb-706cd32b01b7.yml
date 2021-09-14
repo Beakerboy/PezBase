@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 98507347-e408-4fd2-81eb-706cd32b01b7
+  bundle: stem_countries
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: Austria
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en

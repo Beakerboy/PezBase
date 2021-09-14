@@ -1,0 +1,30 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: b078f852-ee41-4253-89b7-c058768c3841
+  bundle: dispenser_families
+  default_langcode: en
+  depends:
+    db5d3edc-ae23-4e8d-899d-6f008072c127: taxonomy_term
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: 'DC Girls'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+    -
+      entity: db5d3edc-ae23-4e8d-899d-6f008072c127
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
