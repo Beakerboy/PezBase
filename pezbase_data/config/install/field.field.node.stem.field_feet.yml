@@ -7,13 +7,15 @@ dependencies:
     - node.type.stem
   module:
     - options
+_core:
+  default_config_hash: LOtO9tSOcL2bXLq_39tj3aZ_6gljb-FgB6dNa2yuFSg
 id: node.stem.field_feet
 field_name: field_feet
 entity_type: node
 bundle: stem
 label: Feet
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
