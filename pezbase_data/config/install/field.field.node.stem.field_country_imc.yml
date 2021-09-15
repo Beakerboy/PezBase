@@ -1,29 +1,21 @@
-uuid: 2da0f84b-f4c5-477d-9b26-2edf0352e081
+uuid: 1f96e35e-e31b-4b0f-947a-20913114256e
 langcode: en
 status: true
 dependencies:
   config:
     - field.storage.node.field_country_imc
     - node.type.stem
-    - taxonomy.vocabulary.stem_countries
+  module:
+    - options
 id: node.stem.field_country_imc
 field_name: field_country_imc
 entity_type: node
 bundle: stem
 label: 'Country / IMC'
 description: ''
-required: false
+required: true
 translatable: false
 default_value: {  }
 default_value_callback: ''
-settings:
-  handler: 'default:taxonomy_term'
-  handler_settings:
-    target_bundles:
-      stem_countries: stem_countries
-    sort:
-      field: name
-      direction: asc
-    auto_create: false
-    auto_create_bundle: countries
-field_type: entity_reference
+settings: {  }
+field_type: list_string
