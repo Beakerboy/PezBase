@@ -1,0 +1,26 @@
+_meta:
+  version: '1.0'
+  entity_type: taxonomy_term
+  uuid: 68381a8d-2d58-4d74-9537-82ce999f2f55
+  bundle: patent_numbers
+  default_langcode: en
+default:
+  status:
+    -
+      value: true
+  name:
+    -
+      value: '5.9'
+  weight:
+    -
+      value: 0
+  parent:
+    -
+      target_id: 0
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
