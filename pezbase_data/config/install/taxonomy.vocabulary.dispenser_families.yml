@@ -5,6 +5,8 @@ dependencies:
   enforced:
     module:
       - pezbase_data
+_core:
+  default_config_hash: Ew5AZuxistRSi3fXdShC8rsZ_sso8FdDigX-rElUkQQ
 name: 'Dispenser Families'
 vid: dispenser_families
 description: 'PEZ Dispenser Families'

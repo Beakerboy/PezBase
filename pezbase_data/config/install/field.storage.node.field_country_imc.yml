@@ -5,6 +5,8 @@ dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: doyDTvScYkIo_fksG4qQ2dQbHI7HdgnpV6_s3-oXDIg
 id: node.field_country_imc
 field_name: field_country_imc
 entity_type: node

@@ -5,6 +5,8 @@ dependencies:
   enforced:
     module:
       - pezbase_data
+_core:
+  default_config_hash: 6QDnqRP7BG3zvUPrVXZ_7zq79bK2eT9kr24cKMLclVA
 name: 'Candy Families'
 vid: candy_families
 description: 'Candy Pack Family Types'

@@ -5,6 +5,8 @@ dependencies:
   enforced:
     module:
       - pezbase_data
+_core:
+  default_config_hash: 1Q2tzGosb9JMXhCJ0I-FizhJk_e1qzRO-WAW2YWQzng
 name: 'Stem Colors'
 vid: stem_colors
 description: 'Dispenser stem colors'

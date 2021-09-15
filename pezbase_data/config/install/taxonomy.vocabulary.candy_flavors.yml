@@ -5,6 +5,8 @@ dependencies:
   enforced:
     module:
       - pezbase_data
+_core:
+  default_config_hash: kByfPw4VqlskPM1ymQAqI-QzNZaISzvWYVZcGDxPyio
 name: 'Candy Flavors'
 vid: candy_flavors
 description: 'Flavors of PEZ Candy'

@@ -7,6 +7,8 @@ dependencies:
     - node.type.stem
   module:
     - options
+_core:
+  default_config_hash: LrcMwvHr4-NI8vkTjKWs_7gEEPnhCDP1oCwvlkTHcBM
 id: node.stem.field_feet
 field_name: field_feet
 entity_type: node

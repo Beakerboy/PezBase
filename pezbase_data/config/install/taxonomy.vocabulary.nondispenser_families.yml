@@ -5,6 +5,8 @@ dependencies:
   enforced:
     module:
       - pezbase_data
+_core:
+  default_config_hash: 89SmMDUCzSJkzcaLcoI2L-aJfZc8i6AvAFh0R03GOrA
 name: 'Nondispenser Families'
 vid: nondispenser_families
 description: 'Nondispenser Family Types'

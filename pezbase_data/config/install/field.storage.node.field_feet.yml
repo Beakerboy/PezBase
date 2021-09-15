@@ -5,6 +5,8 @@ dependencies:
   module:
     - node
     - options
+_core:
+  default_config_hash: cA2YPvU4U-Un9TLKofrXjevd2y64UNGJ1ZLD8wx6omw
 id: node.field_feet
 field_name: field_feet
 entity_type: node

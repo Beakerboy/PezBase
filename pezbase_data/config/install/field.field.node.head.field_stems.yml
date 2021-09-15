@@ -1,0 +1,29 @@
+uuid: af3c680b-fdd0-4ed2-911d-ce0b9afd8473
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_stems
+    - node.type.head
+    - node.type.stem
+id: node.head.field_stems
+field_name: field_stems
+entity_type: node
+bundle: head
+label: Stems
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      stem: stem
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

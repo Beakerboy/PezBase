@@ -7,6 +7,8 @@ dependencies:
     - node.type.stem
   module:
     - options
+_core:
+  default_config_hash: ghTihcHubN32HLiimJNhS5KAqeftrwOqa96MIkEzTMw
 id: node.stem.field_country_imc
 field_name: field_country_imc
 entity_type: node

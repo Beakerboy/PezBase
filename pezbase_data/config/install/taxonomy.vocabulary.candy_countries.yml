@@ -5,6 +5,8 @@ dependencies:
   enforced:
     module:
       - pezbase_data
+_core:
+  default_config_hash: DjIje0TbKF-utBQLJTI4ioEJZY538vzrnU2Aan8DeYY
 name: 'Candy Countries'
 vid: candy_countries
 description: 'Candy Pack Country Names'

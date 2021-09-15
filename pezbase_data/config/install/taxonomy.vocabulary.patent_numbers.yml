@@ -5,6 +5,8 @@ dependencies:
   enforced:
     module:
       - pezbase_data
+_core:
+  default_config_hash: tBeMDZy232Ru6m8vynS0WrvCXnYCI-blmLRUGI_NrUE
 name: 'Patent Numbers'
 vid: patent_numbers
 description: 'Dispenser Patent Numbers'

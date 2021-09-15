@@ -1,0 +1,19 @@
+uuid: f4d33e29-b466-4dd7-a2c6-e49ecae5c906
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_head_description
+    - node.type.head
+id: node.head.field_head_description
+field_name: field_head_description
+entity_type: node
+bundle: head
+label: 'Head Description'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
