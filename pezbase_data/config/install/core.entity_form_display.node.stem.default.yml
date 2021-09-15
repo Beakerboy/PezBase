@@ -1,0 +1,78 @@
+uuid: 6c555295-6c58-4991-83c0-1efd945956e7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.stem.field_country_imc
+    - field.field.node.stem.field_feet
+    - field.field.node.stem.field_patent_number
+    - field.field.node.stem.field_printed_stem
+    - field.field.node.stem.field_stem_color
+    - field.field.node.stem.field_stem_options
+    - node.type.stem
+id: node.stem.default
+targetEntityType: node
+bundle: stem
+mode: default
+content:
+  field_country_imc:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_feet:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_patent_number:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_printed_stem:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_stem_color:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_stem_options:
+    type: options_select
+    weight: 5
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true
