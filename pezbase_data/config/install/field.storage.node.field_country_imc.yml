@@ -1,17 +1,165 @@
-uuid: 0c5ddb95-5e2d-41b4-96cd-fa219e578ece
+uuid: 6390dcdd-22c0-4345-9818-f6f1a4b9d35b
 langcode: en
 status: true
 dependencies:
   module:
     - node
-    - taxonomy
+    - options
 id: node.field_country_imc
 field_name: field_country_imc
 entity_type: node
-type: entity_reference
+type: list_string
 settings:
-  target_type: taxonomy_term
-module: core
+  allowed_values:
+    -
+      value: '21'
+      label: '? / ?'
+    -
+      value: '42'
+      label: 'Austria / 4⁷'
+    -
+      value: '47'
+      label: 'Austria / 4⁸'
+    -
+      value: '40'
+      label: 'Austria / 4⁶'
+    -
+      value: '45'
+      label: 'Austria / 4³'
+    -
+      value: '39'
+      label: 'Austria / 4⁵'
+    -
+      value: '38'
+      label: 'Austria / 4²'
+    -
+      value: '3'
+      label: 'Austria / 8'
+    -
+      value: '37'
+      label: 'Austria / 4¹'
+    -
+      value: '41'
+      label: 'Austria / 4⁴'
+    -
+      value: '22'
+      label: 'Austria / NA'
+    -
+      value: '7'
+      label: 'Austria / 7'
+    -
+      value: '8'
+      label: 'Austria / 3'
+    -
+      value: '10'
+      label: 'Austria / 1'
+    -
+      value: '13'
+      label: 'Austria / 4'
+    -
+      value: '20'
+      label: 'Austria / 2'
+    -
+      value: '28'
+      label: 'Brazil / NA'
+    -
+      value: '5'
+      label: 'China / 6'
+    -
+      value: '24'
+      label: 'China / 1'
+    -
+      value: '31'
+      label: 'China / NA'
+    -
+      value: '34'
+      label: 'Czechoslovakia / 7'
+    -
+      value: '6'
+      label: 'Czech Republic / 7'
+    -
+      value: '16'
+      label: 'Hong Kong / 7'
+    -
+      value: '50'
+      label: 'Hong Kong /'
+    -
+      value: '11'
+      label: 'Hong Kong / 2'
+    -
+      value: '15'
+      label: 'Hong Kong / 6'
+    -
+      value: '12'
+      label: 'Hungary / 3'
+    -
+      value: '2'
+      label: 'Hungary / 1'
+    -
+      value: '32'
+      label: 'Hungary / 5'
+    -
+      value: '29'
+      label: 'Italy / ?'
+    -
+      value: '48'
+      label: 'Jugoslavia / NA'
+    -
+      value: '35'
+      label: 'Jugoslavia / 5'
+    -
+      value: '27'
+      label: 'Mexico / 9'
+    -
+      value: '26'
+      label: 'Mexico / NA'
+    -
+      value: '30'
+      label: 'none / 6'
+    -
+      value: '19'
+      label: 'none / 1'
+    -
+      value: '23'
+      label: 'none / 4'
+    -
+      value: '33'
+      label: 'none / NA'
+    -
+      value: '36'
+      label: 'none / 7'
+    -
+      value: '4'
+      label: 'none / 5'
+    -
+      value: '49'
+      label: 'none / 2'
+    -
+      value: '1'
+      label: 'Slovenia / 5'
+    -
+      value: '25'
+      label: 'Spain / 9'
+    -
+      value: '43'
+      label: 'Vermont, Connecticut USA / NA'
+    -
+      value: '17'
+      label: 'Vermont, Connecticut USA / 9'
+    -
+      value: '51'
+      label: 'Vietnam / A'
+    -
+      value: '14'
+      label: 'Yugoslavia / 5'
+    -
+      value: '44'
+      label: 'Yugoslavia / NA'
+    -
+      value: '18'
+      label: 'Yugoslavia / V'
+  allowed_values_function: ''
+module: options
 locked: false
 cardinality: 1
 translatable: true
