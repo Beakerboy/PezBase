@@ -1,0 +1,20 @@
+uuid: 6b637095-bcf4-4bf0-98ce-e247220a3130
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_stem_color
+field_name: field_stem_color
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
