@@ -13,4 +13,3 @@ ln -s ../../../Pezbase/pezbase_data web/modules
 ln -s ../../../Pezbase/pezbase_examples web/modules
 cp -r default_content web/modules
 vendor/bin/drush en pezbase_examples
-
