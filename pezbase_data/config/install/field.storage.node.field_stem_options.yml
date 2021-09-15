@@ -1,0 +1,36 @@
+uuid: 6eb63111-ed06-4f47-9387-faff18d368ae
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_stem_options
+field_name: field_stem_options
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: UDR
+      label: UDR
+    -
+      value: 'Half Flower'
+      label: 'Half Flower'
+    -
+      value: 'Whole Flower'
+      label: 'Whole Flower'
+    -
+      value: 'Printed Country'
+      label: 'Printed Country'
+    -
+      value: 'Wide Patent'
+      label: 'Wide Patent'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
