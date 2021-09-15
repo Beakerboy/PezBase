@@ -1,0 +1,21 @@
+uuid: ba7a6550-6c82-4a53-9a43-56399aca8a7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_note
+    - node.type.stem
+  module:
+    - text
+id: node.stem.field_note
+field_name: field_note
+entity_type: node
+bundle: stem
+label: Note
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text
