@@ -1,0 +1,29 @@
+uuid: c42e8e47-a193-4f0c-a4b7-ae8c5ca834f4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_patent_number
+    - node.type.stem
+    - taxonomy.vocabulary.patent_numbers
+id: node.stem.field_patent_number
+field_name: field_patent_number
+entity_type: node
+bundle: stem
+label: 'Patent Number'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      patent_numbers: patent_numbers
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
