@@ -1,0 +1,61 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: ca5b3092-2be5-4987-ba40-ea6a36d35fee
+  bundle: head
+  default_langcode: en
+  depends:
+    92f0a01d-e60b-4eb2-b814-577419edc4b9: taxonomy_term
+    dc82080e-1689-416c-b3dd-77e4b829dc82: file
+    15c6d309-8432-46e5-b11c-93b27db22050: node
+    27da55c0-d8b0-486a-82cc-51af82825609: node
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'World Cup Daffy'
+  created:
+    -
+      value: 1631717496
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_family:
+    -
+      entity: 92f0a01d-e60b-4eb2-b814-577419edc4b9
+  field_head_description:
+    -
+      value: 'Daffy, Thumb tab, © WBEI (s06)'
+  field_head_image:
+    -
+      entity: dc82080e-1689-416c-b3dd-77e4b829dc82
+      alt: 'Photo Bu ameliapezgirl'
+      title: ''
+      width: 124
+      height: 124
+  field_stems:
+    -
+      entity: 15c6d309-8432-46e5-b11c-93b27db22050
+    -
+      entity: 27da55c0-d8b0-486a-82cc-51af82825609
+  field_years_available:
+    -
+      value: '2006'

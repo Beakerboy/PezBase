@@ -1,0 +1,53 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 27da55c0-d8b0-486a-82cc-51af82825609
+  bundle: stem
+  default_langcode: en
+  depends:
+    68381a8d-2d58-4d74-9537-82ce999f2f55: taxonomy_term
+    1d5de6f6-c88b-460d-8a08-2be58ed6c8a6: taxonomy_term
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: '2'
+  created:
+    -
+      value: 1631718053
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  field_country_imc:
+    -
+      value: '2'
+  field_feet:
+    -
+      value: Feet
+  field_patent_number:
+    -
+      entity: 68381a8d-2d58-4d74-9537-82ce999f2f55
+  field_printed_stem:
+    -
+      value: 'Coach Whistle'
+  field_stem_color:
+    -
+      entity: 1d5de6f6-c88b-460d-8a08-2be58ed6c8a6

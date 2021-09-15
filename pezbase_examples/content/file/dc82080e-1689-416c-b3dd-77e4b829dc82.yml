@@ -1,0 +1,27 @@
+_meta:
+  version: '1.0'
+  entity_type: file
+  uuid: dc82080e-1689-416c-b3dd-77e4b829dc82
+  default_langcode: en
+default:
+  uid:
+    -
+      target_id: 1
+  filename:
+    -
+      value: 555C7740-3A25-4677-A625-3368F4D5CE58.jpeg
+  uri:
+    -
+      value: 'public://2021-09/555C7740-3A25-4677-A625-3368F4D5CE58.jpeg'
+  filemime:
+    -
+      value: image/jpeg
+  filesize:
+    -
+      value: 20157
+  status:
+    -
+      value: true
+  created:
+    -
+      value: 1631721078
