@@ -9,6 +9,8 @@ third_party_settings:
     available_menus:
       - main
     parent: 'main:standard.front_page'
+_core:
+  default_config_hash: SOINb3aGPvIG4EixswNcsdIbZGYnc565pd0r9eVY_pA
 name: Stem
 type: stem
 description: 'Dispenser stem'
