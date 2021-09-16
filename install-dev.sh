@@ -7,7 +7,7 @@ tar -xzf default_content-2.0.0-alpha1.tar.gz
 rm default_content-2.0.0-alpha1.tar.gz
 composer require drush/drush
 sudo chmod 777 web/sites/default/files/
-vendor/bin/drush site-install --db-url=mysql://pezbase:password@localhost/pezbase --account-pass password
+vendor/bin/drush site-install --db-url=mysql://pezbase:password@localhost/pezbase --site-name PezBase --account-pass password
 ln -s ../../../Pezbase/pezbase_data web/modules
 ln -s ../../../Pezbase/pezbase_examples web/modules
 cp -r default_content web/modules
