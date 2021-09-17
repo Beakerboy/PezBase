@@ -1,0 +1,7 @@
+name: Xenea
+type: theme
+description: 'a Drupal version of the Webtrees Xenea theme.'
+core_version_requirement: ^8 || ^9
+libraries:
+  - xenea/global-styling
+base theme: classy

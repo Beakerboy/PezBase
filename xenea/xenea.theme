@@ -1,0 +1,10 @@
+<?php
+
+/**
+* Implements hook_preprocess_HOOK() for page.html.twig.
+*/
+function xenea_preprocess_page(&$variables) {
+  // Load only on head pages  
+  // Or views-view-fields--head.html.tpl
+  $variables['#attached']['library'][] = 'xenea/head-display';
+}

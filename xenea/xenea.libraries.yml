@@ -1,0 +1,13 @@
+# xenea.libraries.yml
+head-display:
+  version: 1.x
+  css:
+    theme:
+      css/head.css: {}
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      css/layout.css: {}
+      css/style.css: {}
+      css/colors.css: {}
