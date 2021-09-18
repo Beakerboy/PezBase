@@ -7,4 +7,3 @@ Features
 --------
  * [Stem](#stem-entity)
  * [Head](#head-entity)
- * [Dispenser](#dispenser entity)

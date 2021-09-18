@@ -2,7 +2,7 @@ PezBase UI
 =====================
 
 ### Custom UI elements for the PezBase website
-Custom Controllers and views
+Custom Controllers, Blocks, and views
 
 Features
 --------
