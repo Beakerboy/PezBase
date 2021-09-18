@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 4a117044-d719-44c8-bbb5-1ba93b40cb77
+  bundle: article
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'New dispensers for next year'
+  created:
+    -
+      value: 946684800
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: "<p>Next year will see the release of Bob the Builder dispensers in europe, an E.T. dispenser and a line of dispensers called Sours which will come with sour PEZ candy.</p>\r\n"
+      format: basic_html
+      summary: ''

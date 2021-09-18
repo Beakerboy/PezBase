@@ -1,0 +1,40 @@
+_meta:
+  version: '1.0'
+  entity_type: node
+  uuid: 49453a84-85c6-4f20-8f17-f33b10fe8d87
+  bundle: article
+  default_langcode: en
+default:
+  revision_uid:
+    -
+      target_id: 1
+  status:
+    -
+      value: true
+  uid:
+    -
+      target_id: 1
+  title:
+    -
+      value: 'More New dispensers for 2002'
+  created:
+    -
+      value: 1009843871
+  promote:
+    -
+      value: true
+  sticky:
+    -
+      value: false
+  revision_translation_affected:
+    -
+      value: true
+  path:
+    -
+      alias: ''
+      langcode: en
+  body:
+    -
+      value: "<p>There will be new Star Wars dispensers for Episode II. A Clone Trooper, R2-D2, Jango Fett, Boba Fett, C-3PO, and Yoda. Also the New Jersey Nets will be having a Pez promotion at the March 15th game. Finally the will be a series for the popular european children's show Tweenies.</p>\r\n"
+      format: basic_html
+      summary: ''
