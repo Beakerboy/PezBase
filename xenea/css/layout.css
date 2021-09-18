@@ -1,0 +1,33 @@
+table tr td {
+    padding: 4px 4px 4px 4px;
+}
+
+table {
+    border-spacing: 2px;
+}
+
+.block {
+    padding: 1px;
+    margin: 1px;
+}
+
+.region-content {
+    float: left;
+    width: 73%;
+}
+
+.layout-sidebar-second {
+    float: right;
+    width: 25%;
+}
+
+#block-xenea-footer {
+    clear: both;
+}
+#block-xenea-main-menu>ul>li {
+    display: inline;
+}
+
+.search-block-form {
+    float: right;
+}

@@ -1,0 +1,72 @@
+table tr th {
+    background-color: #C3DFFF;
+    color: #000066;
+}
+
+table tr td {
+    background-color: #ECF5FF;
+    color: #000066;
+    border: solid #C3DFFF 1px;
+}
+
+.region-content {
+    background-color: #ECF5FF;
+    color: #000000;
+    border: solid #84beFF 1px;
+}
+.block {
+    background-color: #ECF5FF;
+    color: #000000;
+    border: solid #84beFF 1px;
+}
+
+.region-header {
+    background-image:url('../../../themes/xenea/images/cabeza.jpg');
+}
+
+.region-header>.block {
+    background-color: transparent;
+}
+
+.block-core {
+    border: none;
+}
+
+.block-system {
+    border: none;
+}
+
+.region-primary-menu {
+    background-image:url('../../../themes/xenea/images/barra.gif');
+}
+
+#block-xenea-account-menu {
+    background-color: transparent;
+}
+
+#block-xenea-account-menu>ul {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+#block-xenea-account-menu>ul>li>a {
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+#block-xenea-account-menu>ul>li>a:link{
+    color: white;
+    font-size: 10px;
+}
+
+#block-xenea-footer {
+    background-color: #ffffff;
+    color: #000066;
+    border: none;
+}
+
+.view-frontpage .views-row {
+    border: solid #84beff 1px;
+}
+
