@@ -13,6 +13,7 @@ process:
   created: created
 destination:
   plugin: entity:node
+  default_bundle:stem
 dependencies:
   module:
     - pezbase_import
