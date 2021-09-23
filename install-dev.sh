@@ -1,11 +1,10 @@
 mysql -u root -p -e "CREATE DATABASE pezbase;CREATE USER pezbase@localhost IDENTIFIED WITH mysql_native_password BY 'password';grant all privileges on pezbase.* to pezbase@localhost;"
 git clone git@github.com:Beakerboy/Pezbase
-composer create-project drupal/recommended-project pezbase
+mkdir pezbase
+cp Pezbase/pezbase-composer.json-dev pezbase/composer.json
+cp Pezbase/pezbase-composer.lock-dev pezbase/composer.lock
 cd pezbase
-wget https://ftp.drupal.org/files/projects/default_content-2.0.0-alpha1.tar.gz
-tar -xzf default_content-2.0.0-alpha1.tar.gz
-rm default_content-2.0.0-alpha1.tar.gz
-composer require drush/drush
+composer install
 sudo chmod 777 web/sites/default/files/
 vendor/bin/drush site-install --db-url=mysql://pezbase:password@localhost/pezbase --site-name PezBase --account-pass password
 ln -s ../../../Pezbase/pezbase_data web/modules
