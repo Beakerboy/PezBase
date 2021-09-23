@@ -1,0 +1,22 @@
+id: stems
+label: 'Stems'
+migration_group: pezbase
+source:
+  plugin: pezbase_stems
+  key: migrate
+process:
+  name: username
+  mail: email_address
+  pass: crypt
+  access: last_access
+  login: last_access
+  created: created
+destination:
+  plugin: entity:node
+  default_bundle:stem
+dependencies:
+  module:
+    - pezbase_import
+  enforced:
+    module:
+      - pezbase_import

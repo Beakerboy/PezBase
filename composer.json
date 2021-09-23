@@ -1,0 +1,19 @@
+{
+  "name": "drupal/pezbase",
+  "description": "Custom objects for the PezBase website",
+  "type": "drupal-module",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Kevin Nowaczyk",
+      "role": "Lead Developer",
+      "homepage": "https://github.com/Beakerboy"
+    }
+  ],
+  "autoload-dev": {
+    "psr-4": { "Drupal\\Tests\\pezbase\\": "tests/src/" }
+  },
+  "require": {
+    "drupal/core" : "^9.2"
+  }
+}
