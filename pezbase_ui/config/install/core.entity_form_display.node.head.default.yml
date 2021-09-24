@@ -1,0 +1,78 @@
+uuid: 4b12c264-3c8c-450a-bb0d-44b1ab62bd35
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.head.field_family
+    - field.field.node.head.field_head_description
+    - field.field.node.head.field_head_image
+    - field.field.node.head.field_stems
+    - field.field.node.head.field_years_available
+    - image.style.thumbnail
+    - node.type.head
+  module:
+    - image
+id: node.head.default
+targetEntityType: node
+bundle: head
+mode: default
+content:
+  field_family:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_head_description:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_head_image:
+    type: image_image
+    weight: 3
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  field_stems:
+    type: entity_reference_autocomplete
+    weight: 5
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_years_available:
+    type: string_textfield
+    weight: 4
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  uid: true
