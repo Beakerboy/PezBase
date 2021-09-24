@@ -5,7 +5,6 @@ cp Pezbase/pezbase-composer.json-dev pezbase/composer.json
 cp Pezbase/pezbase-composer.lock-dev pezbase/composer.lock
 cd pezbase
 composer install
-sudo chmod -R 777 web/sites/default/files/
 vendor/bin/drush site-install --db-url=mysql://pezbase:password@localhost/pezbase --site-name PezBase --account-pass password
 sudo chmod -R 777 web/sites/default/files/
 vendor/bin/drush en pezbase_examples
