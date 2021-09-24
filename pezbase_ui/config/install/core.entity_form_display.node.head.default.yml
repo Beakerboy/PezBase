@@ -10,6 +10,9 @@ dependencies:
     - field.field.node.head.field_years_available
     - image.style.thumbnail
     - node.type.head
+  enforced:
+    module:
+      - pezbase_ui
   module:
     - image
 id: node.head.default
