@@ -5,7 +5,7 @@ _meta:
   bundle: head
   default_langcode: en
   depends:
-    92f0a01d-e60b-4eb2-b814-577419edc4b9: taxonomy_term
+    b078f852-ee41-4253-89b7-c058768c3841: taxonomy_term
     dc82080e-1689-416c-b3dd-77e4b829dc82: file
     15c6d309-8432-46e5-b11c-93b27db22050: node
     27da55c0-d8b0-486a-82cc-51af82825609: node
@@ -40,14 +40,14 @@ default:
       langcode: en
   field_family:
     -
-      entity: 92f0a01d-e60b-4eb2-b814-577419edc4b9
+      entity: b078f852-ee41-4253-89b7-c058768c3841
   field_head_description:
     -
       value: 'Daffy, Thumb tab, © WBEI (s06)'
   field_head_image:
     -
       entity: dc82080e-1689-416c-b3dd-77e4b829dc82
-      alt: 'Photo Bu ameliapezgirl'
+      alt: 'Photo By ameliapezgirl'
       title: ''
       width: 124
       height: 124
