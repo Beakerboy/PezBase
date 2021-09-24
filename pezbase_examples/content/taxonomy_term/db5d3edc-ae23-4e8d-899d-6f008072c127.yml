@@ -10,7 +10,7 @@ default:
       value: true
   name:
     -
-      value: 'Super Heroes'
+      value: 'Warner Bros.'
   weight:
     -
       value: 0
