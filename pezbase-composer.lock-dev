@@ -1659,12 +1659,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Beakerboy/PezBase.git",
-                "reference": "5ccfce54d557ab9a7ef413b334610f83c66a989b"
+                "reference": "a4b571407e27b85f7e6d20e84669cbafbac4df41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Beakerboy/PezBase/zipball/5ccfce54d557ab9a7ef413b334610f83c66a989b",
-                "reference": "5ccfce54d557ab9a7ef413b334610f83c66a989b",
+                "url": "https://api.github.com/repos/Beakerboy/PezBase/zipball/a4b571407e27b85f7e6d20e84669cbafbac4df41",
+                "reference": "a4b571407e27b85f7e6d20e84669cbafbac4df41",
                 "shasum": ""
             },
             "require": {
@@ -1688,7 +1688,7 @@
                 "source": "https://github.com/Beakerboy/PezBase/tree/main",
                 "issues": "https://github.com/Beakerboy/PezBase/issues"
             },
-            "time": "2021-09-23T11:43:00+00:00"
+            "time": "2021-09-24T13:17:23+00:00"
         },
         {
             "name": "drush/drush",
