@@ -14,8 +14,8 @@ dependencies:
     - node
     - options
     - user
-id: stems_for_heads
-label: 'Stems for Heads'
+id: stems_for_head
+label: 'Stems for Head'
 module: views
 description: 'Stems for a given head'
 tag: ''
