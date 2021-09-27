@@ -9,6 +9,9 @@ dependencies:
     - field.storage.node.field_years_available
     - node.type.head
     - views.view.stems_for_head
+  enforced:
+    module:
+      - pezbase_ui
   module:
     - image
     - node
