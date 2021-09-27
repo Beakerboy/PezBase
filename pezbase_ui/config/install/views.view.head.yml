@@ -11,7 +11,7 @@ dependencies:
     - views.view.stems_for_head
   enforced:
     module:
-      - pezbase_u
+      - pezbase_ui
   module:
     - image
     - node
