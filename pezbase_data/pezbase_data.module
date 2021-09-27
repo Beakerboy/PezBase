@@ -19,6 +19,14 @@ function pezbase_data_node_presave(&$node) {
     $allowed_values = $node->getFieldDefinition('field_country_imc')->getFieldStorageDefinition()->getSetting('allowed_values');
     $title_array[] = $allowed_values[$id];
 
+    $ids = $node->get('field_stem_options');
+    $allowed_values = $node->getFieldDefinition('field_stem_options')->getFieldStorageDefinition()->getSetting('allowed_values');
+    foreach ($ids as $id) {
+      $title_array[] = $allowed_values[$id->value];
+    }
+
+    $title_array[] = $node->get('field_printed_stem')->value;
+
     $title = implode(';', $title_array);
     // Todo: check that the title is unique.
     $node->title = $title;
