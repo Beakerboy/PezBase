@@ -10,6 +10,9 @@ dependencies:
     - field.field.node.stem.field_stem_color
     - field.field.node.stem.field_stem_options
     - node.type.stem
+  enforced:
+    module:
+      - pezbase_ui
 id: node.stem.default
 targetEntityType: node
 bundle: stem
