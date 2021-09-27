@@ -3,7 +3,7 @@
 use Drupal\Core\Form\FormStateInterface;
 
 /**
- * Implements hook_node_form_validate()
+ * Implements hook_ENTITY_TYPE_presave()
  */
 function pezbase_ui_node_presave(&$node) {
   \Drupal::messenger()->addMessage($node->getType());
