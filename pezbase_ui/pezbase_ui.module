@@ -1,0 +1,17 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_node_form_validate()
+ */
+function pezbase_ui_node_form_validate(&$form, FormStateInterface &$form_state) {
+  $node = $form_state->getFormObject()->getEntity();
+  if ($node->getType() == 'stem') {
+    $title = $form_state->getValue('color');
+    // Todo: check that the title is unique.
+    $form_state->setValue('title', $title);
+    $form['elements']['title']['#value'] = $title;
+    $form['elements']['title']['#default_value'] = $title;
+  }
+}
