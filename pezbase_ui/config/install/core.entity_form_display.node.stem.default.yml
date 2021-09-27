@@ -1,0 +1,71 @@
+uuid: b78d1a9c-e5ac-46a1-af91-92d87b034c18
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.stem.field_country_imc
+    - field.field.node.stem.field_feet
+    - field.field.node.stem.field_patent_number
+    - field.field.node.stem.field_printed_stem
+    - field.field.node.stem.field_stem_color
+    - field.field.node.stem.field_stem_options
+    - node.type.stem
+id: node.stem.default
+targetEntityType: node
+bundle: stem
+mode: default
+content:
+  field_country_imc:
+    type: options_select
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_feet:
+    type: options_select
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_patent_number:
+    type: entity_reference_autocomplete
+    weight: 0
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_printed_stem:
+    type: string_textfield
+    weight: 5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_stem_color:
+    type: entity_reference_autocomplete
+    weight: 1
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_stem_options:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  title: true
+  uid: true
