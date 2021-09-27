@@ -6,6 +6,9 @@ dependencies:
     - field.storage.node.field_family
     - node.type.head
     - taxonomy.vocabulary.dispenser_families
+  enforced:
+    module:
+      - pezbase_data
 id: node.head.field_family
 field_name: field_family
 entity_type: node
