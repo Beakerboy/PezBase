@@ -4,6 +4,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - pezbase_data
 id: node.field_years_available
 field_name: field_years_available
 entity_type: node

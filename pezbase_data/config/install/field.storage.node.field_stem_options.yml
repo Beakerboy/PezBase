@@ -5,6 +5,9 @@ dependencies:
   module:
     - node
     - options
+  enforced:
+    module:
+      - pezbase_data
 _core:
   default_config_hash: iwEvYEYnR5nBy0CoGT0VACrmbqIRcU7LxKafx58DDA8
 id: node.field_stem_options

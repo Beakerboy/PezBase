@@ -6,6 +6,9 @@ dependencies:
     - file
     - image
     - node
+  enforced:
+    module:
+      - pezbase_data
 id: node.field_head_image
 field_name: field_head_image
 entity_type: node

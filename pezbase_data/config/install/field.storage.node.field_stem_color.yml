@@ -5,6 +5,9 @@ dependencies:
   module:
     - node
     - taxonomy
+  enforced:
+    module:
+      - pezbase_data
 id: node.field_stem_color
 field_name: field_stem_color
 entity_type: node

@@ -4,6 +4,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - pezbase_data
 id: node.field_printed_stem
 field_name: field_printed_stem
 entity_type: node

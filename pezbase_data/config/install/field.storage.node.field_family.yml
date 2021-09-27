@@ -5,6 +5,9 @@ dependencies:
   module:
     - node
     - taxonomy
+  enforced:
+    module:
+      - pezbase_data
 id: node.field_family
 field_name: field_family
 entity_type: node

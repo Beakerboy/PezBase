@@ -5,6 +5,9 @@ dependencies:
   module:
     - node
     - options
+  enforced:
+    module:
+      - pezbase_data
 _core:
   default_config_hash: doyDTvScYkIo_fksG4qQ2dQbHI7HdgnpV6_s3-oXDIg
 id: node.field_country_imc

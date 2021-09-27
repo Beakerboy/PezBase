@@ -5,6 +5,9 @@ dependencies:
   config:
     - field.storage.node.field_head_image
     - node.type.head
+  enforced:
+    module:
+      - pezbase_data
   module:
     - image
 id: node.head.field_head_image

@@ -5,6 +5,9 @@ dependencies:
   module:
     - node
     - taxonomy
+  enforced:
+    module:
+      - pezbase_data
 id: node.field_patent_number
 field_name: field_patent_number
 entity_type: node

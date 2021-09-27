@@ -4,6 +4,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - pezbase_data
 id: node.field_head_description
 field_name: field_head_description
 entity_type: node

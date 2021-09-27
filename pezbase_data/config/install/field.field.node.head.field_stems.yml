@@ -6,6 +6,9 @@ dependencies:
     - field.storage.node.field_stems
     - node.type.head
     - node.type.stem
+  enforced:
+    module:
+      - pezbase_data
 id: node.head.field_stems
 field_name: field_stems
 entity_type: node
