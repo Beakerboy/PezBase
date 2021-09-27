@@ -303,16 +303,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "4.3.2",
+            "version": "4.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "101c7dd0388259cfbba41b705b9255d2b1976bbf"
+                "reference": "bf1503225f1cfb372884c71b83763b60a40c875a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/101c7dd0388259cfbba41b705b9255d2b1976bbf",
-                "reference": "101c7dd0388259cfbba41b705b9255d2b1976bbf",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/bf1503225f1cfb372884c71b83763b60a40c875a",
+                "reference": "bf1503225f1cfb372884c71b83763b60a40c875a",
                 "shasum": ""
             },
             "require": {
@@ -350,7 +350,7 @@
                 }
             ],
             "description": "Initialize Symfony Console commands from annotated command class methods.",
-            "time": "2021-09-19T14:35:36+00:00"
+            "time": "2021-09-27T00:56:55+00:00"
         },
         {
             "name": "consolidation/config",
@@ -1660,12 +1660,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/Beakerboy/PezBase.git",
-                "reference": "4df76c4d19feb88465cc4570bd4e7eed52ab01a3"
+                "reference": "cd33ff28fc5591f1a3eb685fa8d4a903f749823c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Beakerboy/PezBase/zipball/4df76c4d19feb88465cc4570bd4e7eed52ab01a3",
-                "reference": "4df76c4d19feb88465cc4570bd4e7eed52ab01a3",
+                "url": "https://api.github.com/repos/Beakerboy/PezBase/zipball/cd33ff28fc5591f1a3eb685fa8d4a903f749823c",
+                "reference": "cd33ff28fc5591f1a3eb685fa8d4a903f749823c",
                 "shasum": ""
             },
             "require": {
@@ -1689,7 +1689,7 @@
                 "source": "https://github.com/Beakerboy/PezBase/tree/main",
                 "issues": "https://github.com/Beakerboy/PezBase/issues"
             },
-            "time": "2021-09-24T14:21:35+00:00"
+            "time": "2021-09-27T17:02:16+00:00"
         },
         {
             "name": "drush/drush",
