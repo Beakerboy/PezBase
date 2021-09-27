@@ -10,6 +10,9 @@ dependencies:
     - field.storage.node.field_stem_color
     - field.storage.node.field_stem_options
     - node.type.head
+  enforced:
+    module:
+      - pezbase_ui
   module:
     - node
     - options
