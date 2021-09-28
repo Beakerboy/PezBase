@@ -21,7 +21,7 @@ table tr td {
 }
 
 .region-header {
-    background-image:url('../../../themes/xenea/images/cabeza.jpg');
+    background-image:url('../../../pezbase/xenea/images/cabeza.jpg');
 }
 
 .region-header>.block {
@@ -37,7 +37,7 @@ table tr td {
 }
 
 .region-primary-menu {
-    background-image:url('../../../themes/xenea/images/barra.gif');
+    background-image:url('../../../pezbase/xenea/images/barra.gif');
 }
 
 #block-xenea-account-menu {
