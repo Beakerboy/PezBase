@@ -16,6 +16,8 @@ dependencies:
     - image
     - node
     - user
+_core:
+  default_config_hash: v8V1XtU_gobW2bBpQK86g1Z4vqWuRPi04zsjjocYSlI
 id: head
 label: Head
 module: views
@@ -482,7 +484,7 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: 'head/{nid}'
+      path: head
     cache_metadata:
       max-age: -1
       contexts:
