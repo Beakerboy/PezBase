@@ -1,0 +1,12 @@
+uuid: a4b9920e-59e0-416a-b158-08acf5cb6483
+name: PezBase
+mail: admin@example.com
+slogan: 'PezBase-The Online PEZ Database'
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
